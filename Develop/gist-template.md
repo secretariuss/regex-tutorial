@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regular expressions, or regex for short, are a series of special characters that define a search pattern. 
+In tutorial, we can see how use regular expressions to match email
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In tutorial, we'll see at how the following Regular expression is used to match an email address:
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
@@ -20,6 +24,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+As shown in the highlighted portion of this regular expression, the components that are highlighted are we call anchors. 
+Anchors are used at the start and end of a string or expression. 
+In this case ```/^``` and ```$/``` signify the beginning or end of expression.
 
 ### Quantifiers
 
